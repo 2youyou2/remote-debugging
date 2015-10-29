@@ -1,0 +1,22 @@
+<link rel="import" href="packages://ui-kit/widget/index.html">
+
+<dom-module id="remote-debugging-panel">
+  <link rel="import" type="css" href="panel.css">
+
+  <template>
+    <editor-button nofocus on-click='setDebugPoint'>
+        断点
+    </editor-button>
+    <editor-button nofocus on-click='removeDebugPoint'>
+        去除断点
+    </editor-button>
+    <editor-button nofocus on-click='pause'>
+        暂停
+    </editor-button>
+    <editor-button nofocus on-click='resume'>
+        恢复
+    </editor-button>
+  </template>
+
+  <script type="text/javascript" src="panel.js"></script>
+</dom-module>

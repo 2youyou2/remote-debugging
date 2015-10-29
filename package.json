@@ -1,0 +1,31 @@
+{
+  "name": "remote-debugging",
+  "version": "0.0.0",
+  "description": "An editor-framework app.",
+  "author": "",
+  "hosts": {
+    "editor-framework": "^0.3.16"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.10.0"
+  },
+  "main": "main.js",
+  "menus": {
+    "Panels/remote-debugging.panel": {
+      "message": "remote-debugging:open"
+    }
+  },
+  "panels": {
+    "panel": {
+      "frame": "panel/panel.html",
+      "type": "dockable",
+      "title": "remote-debugging",
+      "width": 200,
+      "height": 200,
+      "min-width": 200,
+      "min-height": 200,
+      "shortcuts": {},
+      "messages": []
+    }
+  }
+}
